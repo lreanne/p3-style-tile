@@ -1,0 +1,70 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+
+h2, h3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3em;
+}
+
+em {
+	font-family: 'Raleway', sans-serif;
+	color: gray;
+	font-weight: 100;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+section img {
+	size: .5em;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {
+	background: #04B4AE;
+}
+.color-2 {
+	background: #BDBDBD;
+}
+.color-3 {
+	background: #190707;
+}
+
+.pattern-1 {
+	background: url("../img/texture1.jpg");
+}
+.pattern-2 {
+	background: url("../img/texture2.png");
+}
+.pattern-3 {
+	background: url("../img/texture3.jpg");
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
